@@ -1,5 +1,5 @@
  import './App.css'
-import AudioGenerator from './AudioGenerate'
+import AudioGenerator from './AudioGenerate.tsx'
 function App() {
 
   return (

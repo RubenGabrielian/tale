@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 export default function AudioGenerator() {
-    const [audioUrl, setAudioUrl] = useState(null);
+    const [audioUrl, setAudioUrl] = useState<string | null>(null);
     const [loading, setLoading] = useState(false);
 
     const generateAudio = async () => {
