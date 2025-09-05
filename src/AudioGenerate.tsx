@@ -15,7 +15,7 @@ export default function AudioGenerator() {
                 },
                 body: JSON.stringify({
                     project_id: "12345",
-                    text: "This is a sample text.",
+                    text: "Արա Ռուբ ջան ինչ կա ախպերս, ոնց ես",
                     voice: "Areg",
                     format: "mp3",
                 }),
