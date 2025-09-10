@@ -23,9 +23,9 @@ export default function AudioGenerator() {
 
             console.log(response);
             // if API returns binary MP3
-            // const blob = await response.blob();
-            // const url = URL.createObjectURL(blob);
-            // setAudioUrl(url);
+            const blob = await response.blob();
+            const url = URL.createObjectURL(blob);
+            setAudioUrl(url);
         } catch (error) {
             console.error("Error generating audio:", error);
         } finally {
